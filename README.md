@@ -3,7 +3,9 @@ Docker private registry cleanup script
 
 
 ## build image
+```
 docker build -t registry-cleanup . 
+```
 
 ## cleanup your registry
 you can setup username and password to easy remove the same images on different registries:
